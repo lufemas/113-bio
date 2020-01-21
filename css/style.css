@@ -1,0 +1,69 @@
+/* Categories of basic selectors:
+- all
+- types
+- class  <---
+- id - Dont use IDs
+ */
+
+body {
+    background-color: #008ca5;
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 1.4;
+}
+
+.highlight-1 {
+    background-color: #FFC620 ;
+    color: #333;
+    text-align: left;
+}
+
+.highlight-2 {
+    background-color: #77ad51 ;
+    color: #fff;
+}
+
+.highlight-3 {
+    background-color: #F5CBF3;
+    color: #333;
+}
+
+.center-it {
+    text-align: center;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.main-nav {
+    background-color: #A6DEF9 ;
+    color: #333;
+    text-align: right;
+}
+
+.main-nav-menu {
+    list-style: none;
+}
+
+.main-nav-menu li {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 2;
+    /* font: bold normal 1.3em/1.4 inherit; */
+}
+
+.picture {
+    width: 100%;
+    max-width: 700px;
+}
+
+.contact {
+    font-weight: 100;
+    font-size: 1.4em;
+    font-style: normal;
+    line-height: 1.8;
+
+    /* font: normal lighter 1.4em/1.8 inherit; */
+}
